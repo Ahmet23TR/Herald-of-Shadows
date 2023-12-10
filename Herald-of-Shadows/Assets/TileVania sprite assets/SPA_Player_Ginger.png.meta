@@ -1,79 +1,7 @@
 fileFormatVersion: 2
-guid: ae3918a914038694d852d0bb81f62473
+guid: 936cb60b9d36d40759f1dfafefdfb017
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: Medieval_props_free_0
-  - first:
-      213: 21300002
-    second: Medieval_props_free_1
-  - first:
-      213: 21300004
-    second: Medieval_props_free_2
-  - first:
-      213: 21300006
-    second: Medieval_props_free_3
-  - first:
-      213: 21300008
-    second: Medieval_props_free_4
-  - first:
-      213: 21300010
-    second: Medieval_props_free_5
-  - first:
-      213: 21300012
-    second: Medieval_props_free_6
-  - first:
-      213: 21300014
-    second: Medieval_props_free_7
-  - first:
-      213: 21300016
-    second: Medieval_props_free_8
-  - first:
-      213: 21300018
-    second: Medieval_props_free_9
-  - first:
-      213: 21300020
-    second: Medieval_props_free_10
-  - first:
-      213: 21300022
-    second: Medieval_props_free_11
-  - first:
-      213: 21300024
-    second: Medieval_props_free_12
-  - first:
-      213: 21300026
-    second: Medieval_props_free_13
-  - first:
-      213: 21300028
-    second: Medieval_props_free_14
-  - first:
-      213: 21300030
-    second: Medieval_props_free_15
-  - first:
-      213: 21300032
-    second: Medieval_props_free_16
-  - first:
-      213: 21300034
-    second: Medieval_props_free_17
-  - first:
-      213: 21300036
-    second: Medieval_props_free_18
-  - first:
-      213: 21300038
-    second: Medieval_props_free_19
-  - first:
-      213: 21300040
-    second: Medieval_props_free_20
-  - first:
-      213: 21300042
-    second: Medieval_props_free_21
-  - first:
-      213: 21300044
-    second: Medieval_props_free_22
-  - first:
-      213: 21300046
-    second: Medieval_props_free_23
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -106,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -135,29 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -170,7 +85,20 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -183,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -195,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Medieval_props_free_0
+      name: SPA_Player_Ginger_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 122
-        width: 30
-        height: 56
+        x: 0
+        y: 196
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8129982070e8c46b5ecc311b240c3b
-      internalID: 21300000
+      spriteID: 6be7d106d132d49b397bf663213848bc
+      internalID: 14649814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_1
+      name: SPA_Player_Ginger_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 115
-        width: 51
-        height: 56
+        x: 38
+        y: 196
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,230 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002c6b35efd7f62438e1d68ab4aa625a
-      internalID: 21300002
+      spriteID: 5b37634f6884449649d5ad2a7465654a
+      internalID: -1578019692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 115
-        width: 51
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2397b2123e560e488bbc195599fc478
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_3
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 115
-        width: 51
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ed4c0d3b70dbfb46b4a3d82d3d0da2d
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_4
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 115
-        width: 51
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01430b31430fb41499f476c7a6bc0489
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_5
-      rect:
-        serializedVersion: 2
-        x: 303
-        y: 115
-        width: 23
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db4a4db0377e7a84f87190c8ced73c8e
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_6
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 115
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90143bc0f1f9ca84fa15f0ef0969eadd
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_7
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 115
-        width: 28
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d9263a4e77705942a4f724532d62578
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_8
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 115
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e24ee34c0e84fb4f83c86bda49d7d8a
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_9
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 115
-        width: 26
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 177cea794d7915f46b5b1a456c776c93
-      internalID: 21300018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_10
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 115
-        width: 23
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2051dabc86e67454e8b3d32d296a5cc1
-      internalID: 21300020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_11
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 67
-        width: 29
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10ea8ad3331f0764994ff3cf08e41408
-      internalID: 21300022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Medieval_props_free_12
+      name: SPA_Player_Ginger_2
       rect:
         serializedVersion: 2
         x: 76
-        y: 67
-        width: 39
-        height: 29
+        y: 196
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6a433120e52e9419a950ea70d31424
-      internalID: 21300024
+      spriteID: b25cace37ba974006a2c25eb57a15366
+      internalID: -494819469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_13
+      name: SPA_Player_Ginger_3
       rect:
         serializedVersion: 2
-        x: 131
-        y: 68
-        width: 19
-        height: 40
+        x: 114
+        y: 196
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23cbd6971fbff604c9efa39d40b54fbb
-      internalID: 21300026
+      spriteID: 277e850c791404243a253d05ff8d4afb
+      internalID: -1746266579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_14
+      name: SPA_Player_Ginger_4
       rect:
         serializedVersion: 2
-        x: 161
-        y: 54
-        width: 19
-        height: 54
+        x: 152
+        y: 196
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0d9fb73385d88d4c82fe0216ec66507
-      internalID: 21300028
+      spriteID: d6b866c6020294ca8b0ae636d2c0d72c
+      internalID: -534332188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_15
+      name: SPA_Player_Ginger_5
       rect:
         serializedVersion: 2
-        x: 196
-        y: 31
-        width: 24
-        height: 74
+        x: 0
+        y: 158
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b3ea1111b6e06a4394933e2793c0464
-      internalID: 21300030
+      spriteID: 50496c16a9ac74b01a9b3b80d8675507
+      internalID: 554064683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_16
+      name: SPA_Player_Ginger_6
       rect:
         serializedVersion: 2
-        x: 230
-        y: 60
-        width: 22
-        height: 51
+        x: 38
+        y: 158
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -545,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 936a9e405b6e8f546861f4bac686b2c1
-      internalID: 21300032
+      spriteID: a6b831b4e07ca4a449f7709e37734fca
+      internalID: -910132037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_17
+      name: SPA_Player_Ginger_7
       rect:
         serializedVersion: 2
-        x: 261
-        y: 52
-        width: 24
-        height: 21
+        x: 76
+        y: 158
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -566,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c762ef6d294db34d8845787122f5467
-      internalID: 21300034
+      spriteID: 320c8848e040f49ec874e3d64a7bd446
+      internalID: 1801674049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_18
+      name: SPA_Player_Ginger_8
       rect:
         serializedVersion: 2
-        x: 310
-        y: 42
-        width: 20
-        height: 63
+        x: 114
+        y: 158
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e583921671d229b49a6f01f8b0f488b1
-      internalID: 21300036
+      spriteID: 7be7afa46d11842dd98e173d0dd94b5c
+      internalID: -1216445756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_19
+      name: SPA_Player_Ginger_9
       rect:
         serializedVersion: 2
-        x: 345
-        y: 42
-        width: 20
-        height: 62
+        x: 0
+        y: 120
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4879fd61147ba345b21c2addbfb5dc5
-      internalID: 21300038
+      spriteID: 8fc7ccc72958f4400a7f276a41a89e60
+      internalID: -1501347410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_20
+      name: SPA_Player_Ginger_10
       rect:
         serializedVersion: 2
-        x: 386
-        y: 55
-        width: 37
-        height: 39
+        x: 38
+        y: 120
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e9277ca4beb2d48b191b2421d359e7
-      internalID: 21300040
+      spriteID: 799e21ea8e4084379a2d110a1fd2869e
+      internalID: -1994186873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_21
+      name: SPA_Player_Ginger_11
       rect:
         serializedVersion: 2
-        x: 432
-        y: 56
-        width: 26
-        height: 31
+        x: 76
+        y: 120
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1359ee9c1d6ae984e8ec07ca33248f1e
-      internalID: 21300042
+      spriteID: f478ab78ecbb44ac9ae26ffe905dcde9
+      internalID: -2059688503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_22
+      name: SPA_Player_Ginger_12
       rect:
         serializedVersion: 2
-        x: 230
-        y: 31
-        width: 22
-        height: 18
+        x: 114
+        y: 120
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -671,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3302dce148e0bf4385d745b001606ed
-      internalID: 21300044
+      spriteID: 29ca1af3c80e0444d94eb5bbb80e92d6
+      internalID: 2030781852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Medieval_props_free_23
+      name: SPA_Player_Ginger_13
       rect:
         serializedVersion: 2
-        x: 261
-        y: 31
-        width: 24
-        height: 18
+        x: 152
+        y: 120
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,8 +410,323 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4cc896da990e2d4187131da4fa92262
-      internalID: 21300046
+      spriteID: 2007a47ff106846d2878e5c5cc92197a
+      internalID: -1617271509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6347e81d2fa3b4c519dafe5c15915bcc
+      internalID: -1777297608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 82
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82709df1c43234954a1408e63b44794d
+      internalID: -787361757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5372d48eafcc7444baf3d5713a35b46f
+      internalID: 1088774327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938ae9d924da84d8780f75b56711ce7d
+      internalID: 415188666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f501b835d79c4e1eb56826bb38ccf08
+      internalID: 561021785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03ec19822b7f4f4da477fef5eefff57
+      internalID: 394260005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c5c6e6f34334884a8b48b52419a290
+      internalID: -948807089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41e4e2755c644b168cf866d3b05e696
+      internalID: -953141766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7df5cd332ff64dde9f312568c6a6a91
+      internalID: 20420783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09df2588ace24761b08a66c68cfb82f
+      internalID: 99546122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_24
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29345e3cae1564463bc54197151d77a8
+      internalID: -1862019002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_25
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c189202352b478b8368ec28ecdfecc
+      internalID: 1387970867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_26
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d28c8f6e35d43fa926445ceb28fb68
+      internalID: 1011199427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_27
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfcae5c4df5d4f6aa1c9f437349af10
+      internalID: -1220315756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Ginger_28
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70202deb1607e4a44831143a4a4731df
+      internalID: -325419814
       vertices: []
       indices: 
       edges: []
@@ -701,7 +734,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 58a5635cd78ac5d4e98536259fd04d67
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -709,30 +742,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Medieval_props_free_0: 21300000
-      Medieval_props_free_1: 21300002
-      Medieval_props_free_10: 21300020
-      Medieval_props_free_11: 21300022
-      Medieval_props_free_12: 21300024
-      Medieval_props_free_13: 21300026
-      Medieval_props_free_14: 21300028
-      Medieval_props_free_15: 21300030
-      Medieval_props_free_16: 21300032
-      Medieval_props_free_17: 21300034
-      Medieval_props_free_18: 21300036
-      Medieval_props_free_19: 21300038
-      Medieval_props_free_2: 21300004
-      Medieval_props_free_20: 21300040
-      Medieval_props_free_21: 21300042
-      Medieval_props_free_22: 21300044
-      Medieval_props_free_23: 21300046
-      Medieval_props_free_3: 21300006
-      Medieval_props_free_4: 21300008
-      Medieval_props_free_5: 21300010
-      Medieval_props_free_6: 21300012
-      Medieval_props_free_7: 21300014
-      Medieval_props_free_8: 21300016
-      Medieval_props_free_9: 21300018
+      SPA_Player_Ginger_0: 14649814
+      SPA_Player_Ginger_1: -1578019692
+      SPA_Player_Ginger_10: -1994186873
+      SPA_Player_Ginger_11: -2059688503
+      SPA_Player_Ginger_12: 2030781852
+      SPA_Player_Ginger_13: -1617271509
+      SPA_Player_Ginger_14: -1777297608
+      SPA_Player_Ginger_15: -787361757
+      SPA_Player_Ginger_16: 1088774327
+      SPA_Player_Ginger_17: 415188666
+      SPA_Player_Ginger_18: 561021785
+      SPA_Player_Ginger_19: 394260005
+      SPA_Player_Ginger_2: -494819469
+      SPA_Player_Ginger_20: -948807089
+      SPA_Player_Ginger_21: -953141766
+      SPA_Player_Ginger_22: 20420783
+      SPA_Player_Ginger_23: 99546122
+      SPA_Player_Ginger_24: -1862019002
+      SPA_Player_Ginger_25: 1387970867
+      SPA_Player_Ginger_26: 1011199427
+      SPA_Player_Ginger_27: -1220315756
+      SPA_Player_Ginger_28: -325419814
+      SPA_Player_Ginger_3: -1746266579
+      SPA_Player_Ginger_4: -534332188
+      SPA_Player_Ginger_5: 554064683
+      SPA_Player_Ginger_6: -910132037
+      SPA_Player_Ginger_7: 1801674049
+      SPA_Player_Ginger_8: -1216445756
+      SPA_Player_Ginger_9: -1501347410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
