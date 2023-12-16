@@ -1,26 +1,29 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float runSpeed = 10f;
-    [SerializeField] float jumpSpeed = 5f;
-    [SerializeField] float climbSpeed = 5f;
-    
-    Vector2 moveInput;
+    [SerializeField] float runSpeed = 5f;
+    [SerializeField] float JumpSpeed = 5f;
+    [SerializeField] float ClimbSpeed = 3f;
+    bool isPlayerMoveHorizontal;
+    bool isPlayerMoveVertical;
+    CapsuleCollider2D myCollider2D;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
-    CapsuleCollider2D myCapsuleCollider;
-    float gravityScaleAtStart;
+    Vector2 moveInput;
+
 
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
-        myCapsuleCollider = GetComponent<CapsuleCollider2D>();
-        gravityScaleAtStart = myRigidbody.gravityScale;
+        myCollider2D = GetComponent<CapsuleCollider2D>();
     }
 
     void Update()
@@ -30,59 +33,49 @@ public class PlayerMovement : MonoBehaviour
         ClimbLadder();
     }
 
+
     void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
     }
-
     void OnJump(InputValue value)
     {
-        bool isTouchingGround = myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground"));
-        bool isTouchingLadder = myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ladder"));
-        if (!isTouchingGround && !isTouchingLadder) { return;}
-        
-        if(value.isPressed)
+        if(value.isPressed && myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
-            // do stuff
-            myRigidbody.velocity += new Vector2 (0f, jumpSpeed);
+            myRigidbody.velocity = new Vector2(0f, JumpSpeed);        
         }
-    }
-
+    }    
     void Run()
     {
         Vector2 playerVelocity = new Vector2 (moveInput.x * runSpeed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
 
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
-        myAnimator.SetBool("isRunning", playerHasHorizontalSpeed);
 
+        isPlayerMoveHorizontal = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
+        myAnimator.SetBool("IsRunning", isPlayerMoveHorizontal);
     }
-
     void FlipSprite()
     {
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
-
-        if (playerHasHorizontalSpeed)
+        isPlayerMoveHorizontal = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
+        if(isPlayerMoveHorizontal)
         {
             transform.localScale = new Vector2 (Mathf.Sign(myRigidbody.velocity.x), 1f);
         }
     }
-
     void ClimbLadder()
     {
-        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Climbing"))) 
-        { 
-            myRigidbody.gravityScale = gravityScaleAtStart;
-            myAnimator.SetBool("isClimbing", false);
+        if(!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladder")))
+        {
+            myRigidbody.gravityScale = 8f;
+            myAnimator.SetBool("IsClimbing", false);
             return;
         }
-        
-        Vector2 climbVelocity = new Vector2 (myRigidbody.velocity.x, moveInput.y * climbSpeed);
-        myRigidbody.velocity = climbVelocity;
+       
+        Vector2 climbingVelocity = new Vector2 (myRigidbody.velocity.x, moveInput.y * ClimbSpeed);
+        myRigidbody.velocity = climbingVelocity;
         myRigidbody.gravityScale = 0f;
 
-        bool playerHasVerticalSpeed = Mathf.Abs(myRigidbody.velocity.y) > Mathf.Epsilon;
-        myAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
+        isPlayerMoveVertical = Mathf.Abs(myRigidbody.velocity.y) > Mathf.Epsilon;
+        myAnimator.SetBool("IsClimbing", isPlayerMoveVertical);
     }
-
 }

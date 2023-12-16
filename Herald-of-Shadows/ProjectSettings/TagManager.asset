@@ -11,13 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-<<<<<<< Updated upstream
   - Ground
-  - Climbing
-=======
   - Ladder
-  - 
->>>>>>> Stashed changes
   - 
   - 
   - 
@@ -47,20 +42,17 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 2654948761
+    uniqueID: 1275497415
     locked: 0
   - name: Water
-    uniqueID: 1918633245
+    uniqueID: 239884175
     locked: 0
   - name: Platforms
-    uniqueID: 3220360055
-    locked: 0
-  - name: Climbing
-    uniqueID: 368567325
+    uniqueID: 560452497
     locked: 0
   - name: Ladder
-    uniqueID: 1840555523
+    uniqueID: 192003069
     locked: 0
   - name: Player
-    uniqueID: 3411891735
+    uniqueID: 2431934627
     locked: 0
