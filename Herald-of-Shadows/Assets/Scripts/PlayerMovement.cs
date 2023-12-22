@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     float gravityScaleAtStart;
 
     bool isAlive = true;
+    bool isFire = false;
 
     void Start()
     {
@@ -39,11 +40,12 @@ public class PlayerMovement : MonoBehaviour
         FlipSprite();
         ClimbLadder();
         Die();
+        StartFire();
     }
     void OnFire(InputValue value)
     {
         if (!isAlive) { return; }
-        Instantiate(bullet, gun.position, transform.rotation);
+        Invoke("Fire", 0.15f);
     }
 
     void OnMove(InputValue value)
@@ -63,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
             myRigidbody.velocity += new Vector2 (0f, jumpSpeed);
         }
     }
+
 
     void Run()
     {
@@ -108,6 +111,30 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Die");
             myRigidbody.velocity = deathKick;
+        }
+    }
+    void Fire()
+    {
+        Instantiate(bullet, gun.position, transform.rotation);
+    }
+
+    void FireAnim()
+    {
+        isFire = true;
+        myAnimator.SetBool("IsFire", true);
+        Invoke("ResetFire", 0.4f);
+    }
+
+    void ResetFire()
+    {
+        isFire = false;
+        myAnimator.SetBool("IsFire", false);
+    }
+    void StartFire()
+    {
+        if (Input.GetMouseButtonDown(0) && !isFire)
+        {
+            FireAnim();
         }
     }
     
