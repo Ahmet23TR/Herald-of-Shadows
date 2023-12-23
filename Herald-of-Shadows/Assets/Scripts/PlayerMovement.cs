@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void OnFire(InputValue value)
     {
-        if (!isAlive) { return; }
+        if (!isAlive || myAnimator.GetBool("IsRunning") || myAnimator.GetBool("IsClimbing") || myAnimator.GetBool("IsFire")) { return; }
         Invoke("Fire", 0.2f);
     }
 
