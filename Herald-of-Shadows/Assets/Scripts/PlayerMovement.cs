@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeetCollider;
     float gravityScaleAtStart;
-
     bool isAlive = true;
     bool isFire = false;
 
@@ -29,8 +28,7 @@ public class PlayerMovement : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         myBodyCollider = GetComponent<CapsuleCollider2D>();
         myFeetCollider = GetComponent<BoxCollider2D>();
-        gravityScaleAtStart = myRigidbody.gravityScale;
-        
+        gravityScaleAtStart = myRigidbody.gravityScale;  
     }
 
     void Update()
@@ -45,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     void OnFire(InputValue value)
     {
         if (!isAlive) { return; }
-        Invoke("Fire", 0.15f);
+        Invoke("Fire", 0.2f);
     }
 
     void OnMove(InputValue value)
@@ -137,5 +135,4 @@ public class PlayerMovement : MonoBehaviour
             FireAnim();
         }
     }
-    
 }

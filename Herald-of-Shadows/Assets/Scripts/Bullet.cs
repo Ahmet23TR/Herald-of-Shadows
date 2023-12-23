@@ -25,16 +25,15 @@ public class Bullet : MonoBehaviour
     {
         if (PlayerIsFacingLeft() > 0)
         {
-            Debug.Log(PlayerIsFacingLeft());
             gameObject.transform.localScale = new Vector2(1, 1);
         }
         else if(PlayerIsFacingLeft() < 0)
         {
-            Debug.Log(PlayerIsFacingLeft());
             gameObject.transform.localScale = new Vector2(-1, 1);
         }
     }
 
+    
     int PlayerIsFacingLeft()
     {
         if(player.transform.localScale.x < 0f)
