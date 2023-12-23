@@ -109,6 +109,7 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Die");
             myRigidbody.velocity = deathKick;
+            Invoke("DieProcess", 1.5f);
         }
     }
     void Fire()
@@ -134,5 +135,9 @@ public class PlayerMovement : MonoBehaviour
         {
             FireAnim();
         }
+    }
+    void DieProcess()
+    {
+        FindObjectOfType<GameSession>().ProcessPlayerDeath();
     }
 }
