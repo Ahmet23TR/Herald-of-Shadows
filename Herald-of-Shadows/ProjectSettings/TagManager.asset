@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Ladder
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Enemies
   - Hazards
   - 'Bullets '
-  - 
+  - Interactables
   - 
   - 
   - 
@@ -56,6 +57,9 @@ TagManager:
     locked: 0
   - name: Hazards
     uniqueID: 1627462783
+    locked: 0
+  - name: Interactables
+    uniqueID: 2781160957
     locked: 0
   - name: Enemy
     uniqueID: 1940485263
