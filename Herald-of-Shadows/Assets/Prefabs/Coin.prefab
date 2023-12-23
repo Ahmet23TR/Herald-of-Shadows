@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5530541862519187701}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,3 +155,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ee94c3bb38a46dc883f8d6d70795ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinPickupSfx: {fileID: 0}
+  poitsForCoinPickups: 100
